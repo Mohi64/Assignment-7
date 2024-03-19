@@ -12,6 +12,7 @@ const Recipe = ({ recipe, handleClickToCook }) => {
   return (
     <div>
       <div className="card card-compact bg-base-100 shadow-xl p-3">
+       
         <figure>
           <img src={img} alt={recipe_name} />
         </figure>
@@ -39,7 +40,12 @@ const Recipe = ({ recipe, handleClickToCook }) => {
             </div>
           </div>
           <div className="card-actions">
-            <button onClick={()=>handleClickToCook(recipe)} className="btn bg-[#0BE58A] rounded-full">Want to Cook</button>
+            <button
+              onClick={() => handleClickToCook(recipe)}
+              className="btn bg-[#0BE58A] rounded-full"
+            >
+              Want to Cook
+            </button>
           </div>
         </div>
       </div>
@@ -49,7 +55,7 @@ const Recipe = ({ recipe, handleClickToCook }) => {
 
 Recipe.propTypes = {
   recipe: PropTypes.object.isRequired,
-  handleClickToCook: PropTypes.func
+  handleClickToCook: PropTypes.func,
 };
 
 export default Recipe;

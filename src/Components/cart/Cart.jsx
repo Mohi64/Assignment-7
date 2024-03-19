@@ -1,13 +1,14 @@
 import PropTypes from "prop-types";
 
 
-const Cart = ({cook}) => {
+const Cart = ({cook, index}) => {
     // console.log(cook.recipe_id) 
     const {recipe_name, preparing_time, calories} = cook;
     return (
         <div>
             
-            <div className="flex justify-start lg:gap-14 my-5">
+            <div className="flex justify-start lg:gap-10 my-5">
+            <p>{index + 1}</p>
             <h3>{recipe_name}</h3>
             <h3>{preparing_time}</h3>
             <h3>{calories}</h3>
@@ -17,6 +18,8 @@ const Cart = ({cook}) => {
     );
 };
 Cart.propTypes={
-    cook: PropTypes.object
+    cook: PropTypes.object,
+    index: PropTypes.number
+
 }
 export default Cart;

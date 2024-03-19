@@ -16,7 +16,7 @@ const Recipes = ({handleClickToCook}) => {
         <div className="md:w-2/3 grid lg:grid-cols-2 gap-4 m-4">
            
            {
-            recipes.map(recipe => <Recipe handleClickToCook={handleClickToCook}
+            recipes.map((recipe, index) => <Recipe handleClickToCook={handleClickToCook} index={index}
                 key={recipe.id}
                  recipe={recipe} >
                  </Recipe> )
