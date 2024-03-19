@@ -1,0 +1,57 @@
+[
+    {
+      "img": "https://i.ibb.co/p2sRJTw/img1.jpg",
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish with creamy sauce and crispy bacon.",
+      "ingredients": ["900gm Lasagna Sheets","500gm Zucchini", "600gm Spinach", "80gm Lettuce"],
+      "preparing_time": "30 minutes",
+      "calories": 450
+    },
+    {
+      "img": "https://i.ibb.co/P97xrjV/img2.webp",
+      "recipe_id": 2,
+      "recipe_name": "Chicken Stir-Fry",
+      "description": "A quick and healthy dish with tender chicken and colorful vegetables.",
+      "ingredients": ["90gm Lasagna Sheets","50gm Zucchini", "60gm Spinach", "800gm Lettuce"],
+      "preparing_time": "25 minutes",
+      "calories": 320
+    },
+    {
+      "img": "https://i.ibb.co/1LF8ptp/img3.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegetable Lasagna",
+      "description": "Layers of pasta, vegetables, and creamy cheese sauce make this a satisfying vegetarian meal.",
+      "ingredients": ["400gm Lasagna Sheets","340gm Zucchini", "60gm Spinach", "800gm Lettuce"],
+      "preparing_time": "50",
+      "calories": 380
+    },
+    {
+      "img": "https://i.ibb.co/SXCVZCp/img4.jpg",
+      "recipe_id": 4,
+      "recipe_name": "Grilled Salmon",
+      "description": "Fresh salmon fillets marinated in lemon and herbs, grilled to perfection.",
+      "ingredients": ["300gm Lasagna Sheets","50gm Zucchini", "200gm Spinach", "80gm Lettuce"],
+      "preparing_time": "20 minutes",
+      "calories": 280
+    },
+    {
+      "img": "https://i.ibb.co/Pm4HbtM/img5.jpg",
+      "recipe_id": 5,
+      "recipe_name": "Mushroom Risotto",
+      "description": "Creamy arborio rice cooked with flavorful mushrooms and white wine.",
+      "ingredients": ["650gm Lasagna Sheets","50gm Zucchini", "60gm Spinach", "80gm Lettuce"],
+      "preparing_time": "40 minutes",
+      "calories": 390
+    },
+    {
+      "img": "https://i.ibb.co/Pm4HbtM/img5.jpg",
+      "recipe_id": 6,
+      "recipe_name": "Beef Tacos",
+      "description": "Juicy beef seasoned with Mexican spices, served in warm tortillas with salsa and toppings.",
+      "ingredients": ["980gm Lasagna Sheets","450gm Zucchini", "650gm Spinach", "80gm Lettuce"],
+      "preparing_time": "35 minutes",
+      "calories": 420
+    }
+  ]
+  
