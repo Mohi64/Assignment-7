@@ -9,7 +9,7 @@ function App() {
   const [cooks, setCooks] =useState([]);
 
   const handleClickToCook= cook =>{
-    const isExist = cooks.find(item => item.id = cook.id);
+    const isExist = cooks.find(item => item.recipe_id == cook.recipe_id);
     if(!isExist){
       // setCooks([...cooks, cook]);
       const newCooks= [...cooks, cook];
@@ -25,7 +25,7 @@ function App() {
     <>
       
       <Header></Header>
-      <div className='flex'>
+      <div className='md:flex-row lg:flex'>
       <Recipes handleClickToCook={handleClickToCook}></Recipes>
       <CookCart cooks={cooks}></CookCart>
       </div>
